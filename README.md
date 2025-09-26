@@ -37,7 +37,7 @@ iv. Cart Service and Orders Service use MongoDB to store data.
 2. Backend Setup (Cart-Service)
  -Run locally: Open the terminal, cd checkitem-backend,  node index.js.
    
-Frontend Setup (React / Next.js)
+   Frontend Setup (React / Next.js)
  -Run locally: Open terminal, cd checkout-frontend, npm run dev.
 
 Deploy to Vercel:
