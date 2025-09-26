@@ -13,7 +13,9 @@ const app = express();
 // CORS configuration
 // Allows requests from your frontend running on localhost:3000
 app.use(cors({
-  origin: "http://localhost:3000", // your frontend URL
+  origin: 
+  "http://localhost:3000", // your frontend URL
+  "https://checkout-frontend-omega.vercel.app"
 }));
 
 
@@ -37,3 +39,4 @@ mongoose.connect(process.env.MONGO_URI, {
 })
 .then(() => console.log('✅ MongoDB connected'))
 .catch((err) => console.error('❌ MongoDB connection error:', err));
+
