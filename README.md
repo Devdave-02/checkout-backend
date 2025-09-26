@@ -45,12 +45,12 @@ Deploy to Vercel:
 
 3. API Endpoints
 The backend provides the following endpoints for the website:
-1. Cart Endpoints
+ Cart Endpoints
    POST /api/cart: Add an item to a user's cart.
    
    GET /api/cart/:userId: Get all items in a user's cart.
    
-2. Orders Endpoint
+  Orders Endpoint
    POST /api/orders: Create an order from the items in the cart.  
   
 
