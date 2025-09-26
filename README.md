@@ -12,7 +12,7 @@ E-commerce Checkout System
 
 Architecture Diagram:
 Cart System Architecture
-``text
+```text
 +--------------------+          POST /api/cart
 |   Frontend (UI)    | ------------------------> +------------------+
 |  React / Next.js   |                            |   Cart Service   |
@@ -26,6 +26,7 @@ Cart System Architecture
                                                  |  Orders Service  |
                                                  | (Node.js + MongoDB) |
                                                  +------------------+
+```
 How it works:
 i. Frontend calls POST /api/cart to add items to the cart.  
 ii. Frontend calls GET /api/cart/:userId to fetch current cart items.  
