@@ -12,7 +12,7 @@ E-commerce Checkout System
 
 Architecture Diagram:
 Cart System Architecture
-
+``text
 +--------------------+          POST /api/cart
 |   Frontend (UI)    | ------------------------> +------------------+
 |  React / Next.js   |                            |   Cart Service   |
