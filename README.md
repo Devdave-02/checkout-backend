@@ -50,7 +50,7 @@ The backend provides the following endpoints for the website:
    
    GET /api/cart/:userId: Get all items in a user's cart.
    
-  Orders Endpoint
+   Orders Endpoint
    POST /api/orders: Create an order from the items in the cart.  
   
 
