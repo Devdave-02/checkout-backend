@@ -35,16 +35,10 @@ iv. Cart Service and Orders Service use MongoDB to store data.
 
                                           
 2. Backend Setup (Cart-Service)
- -Run locally:
-  Open the terminal
-  cd checkitem-backend
-  node index.js
+ -Run locally: Open the terminal, cd checkitem-backend,  node index.js.
    
 Frontend Setup (React / Next.js)
- Run locally:
- Open terminal
- cd checkout-frontend
- npm run dev
+ -Run locally: Open terminal, cd checkout-frontend, npm run dev.
 
 Deploy to Vercel:
  live URL: https://checkout-frontend-omega.vercel.app/
@@ -52,15 +46,12 @@ Deploy to Vercel:
 3. API Endpoints
 The backend provides the following endpoints for the website:
 1. Cart Endpoints
-   POST /api/cart 
-   Purpose: Add an item to a user's cart.
+   POST /api/cart: Add an item to a user's cart.
    
-   GET /api/cart/:userId
-   Purpose: Get all items in a user's cart.
+   GET /api/cart/:userId: Get all items in a user's cart.
    
 2. Orders Endpoint
-   POST /api/orders  
-   Purpose: Create an order from the items in the cart.  
+   POST /api/orders: Create an order from the items in the cart.  
   
 
 
